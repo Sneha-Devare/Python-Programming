@@ -1,0 +1,20 @@
+print("hello world!")
+print("sneha devare")
+print("hi mumma")
+print("miss you")
+print("sneha is my name")
+print("my age is 20")
+print("sneha is my name. "," my age is 20.")
+print(25)
+print(35)
+print(10+20)
+name = "sneha"
+age = 20
+price = 29.33
+print(name,age,price)
+print(name)
+print("my name is:",name)
+print("my age is:",age)
+print("my name is:",name,". my age is:",age)
+print(type(name))
+print(type(age))
