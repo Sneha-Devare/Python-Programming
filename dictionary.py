@@ -75,3 +75,6 @@ print(family.get(2))   #with function
 
 #why here these two methods bcoz if we use function for it...we will not get any error it shows only "none" value while otherone will give error
 
+#insert the specified items to the dictionary
+family.update({3:"vahini"})
+print(family)
