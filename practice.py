@@ -1,3 +1,4 @@
+#this is a practice file
 # write a program to input 2 numbers and print their sum
 # num1=int(input("Enter number1:"))
 # num2=int(input("Enter number2:"))
@@ -263,3 +264,4 @@
 # for i in range(1,n+1):
 #     fact=fact*i
 # print("factorial is : ",fact)
+
