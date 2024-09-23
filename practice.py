@@ -112,13 +112,154 @@
 
 
 #write a program to count the number of students with the "A" grade in the following tuple.
-grade=("C","D","A","A","B","B","A")
+# grade=("C","D","A","A","B","B","A")
 # students_count=grade.count("A")
 # print(students_count)
 
 
 #store the above values in a list and sort them from "A" to "Z"
-grades=list(grade)
-print(grades)
-grades.sort()
-print(grades)
+# grades=list(grade)
+# print(grades)
+# grades.sort()
+# print(grades)
+
+
+#store the following values in dictionary
+# dictionary={"cat":"a small animal","table":["a piece of furniture" , "a list of facts"]}
+
+
+#you are given a list of subjets for students. Assume one classroom is required for 1 subject .how many classrooms are required by all 
+# students1={"python","java","c++","python","javascript"}
+# students2={"java","python","java","c++","c"}
+# Classroom=students1.union(students2)
+# print(Classroom)
+# print(len(Classroom)," classrooms are needed.")
+
+
+#write a program to enter marks of 3 subjects from the user and store them into dictionary.start with an empty dictionary and add one by one.use subject name as key and marks as values.
+# dict={}
+# math=(int(input("enter marks of maths : ")))
+# dict.update({"maths":math})
+# phy=(int(input("enter marks of phy : ")))
+# dict.update({"phy":phy})
+# chem=(int(input("enter marks of chem : ")))
+# dict.update({"chem":chem})
+# print(dict)
+
+#figure out a way to store 9 and 9.0 as separate values in a set(you can take help of built in data types)
+# values={9,"9.0"}
+# print(values)
+
+# val={("float",9.0),
+#      ("int",9)
+#      }
+# print(val)
+
+# #print numbers from 1 to 100
+# i=1
+# while (i<=100):
+#     print(i)
+#     i=i+1
+
+
+#print numbers from 100 to 1
+# i=100
+# while(i>=1):
+#     print(i)
+#     i=i-1
+  
+
+#print the multiplication table of a number n
+# n=int(input("enter any no : "))
+# i=1
+# while(i<=10):
+#     print(i*n)
+#     i=i+1
+
+
+#print rhe elements of the following list using a loop
+#{1,4,9,16,25,36,49,64,81,100}
+
+# i=1
+# while(i<=10):
+#     print(i*i)
+#     i=i+1
+
+
+#search for a number x in this tuple using loop:
+#{1,4,9,16,25,36,49,64,81,100}
+
+# nums=(1,4,9,16,25,36,49,64,81,100)
+# x=36
+# i=0
+# while(i<len(nums)):
+#     if(nums[i]==x):
+#         print("found",i)
+#     i=i+1
+
+
+
+#print the elements using for loop
+#[1,4,9,16,25,36,49,64,81,100]
+
+# tup=[1,4,9,16,25,36,49,64,81,100]
+# for elements in tup:
+#     print(elements)
+
+
+#search for a number x in this tuple using loop:
+# [1,4,9,16,25,36,49,64,81,100]
+# nums=[1,4,9,16,25,36,49,64,81,100,]
+# x=49
+# idx=0
+# for elements in nums:
+#     print("finding")
+#     if(elements==x):
+#         print("found",idx)
+#     print("still searching")
+#     idx=idx+1
+# print("elements are ended")
+
+
+#use range()
+
+#print numbers from 1 to 100
+# for nums in range (1,101):
+#     print(nums)
+
+#print numbers from 100 to 1
+# for nums in range (100,0,-1):
+#     print(nums)
+          
+
+#print the multiplication table of a number n
+# x=int(input("enter any number: "))
+# for nums in range(1,11):
+#     print(nums*x)
+
+
+
+#write a program to find the sum of first n natural numbers(using range)
+# n=int(input("enter any number : "))
+# sum=0
+# for i in range(1,n+1):
+#     sum+=i
+# print("total sum : ",sum)
+
+#using while above que
+# n=int(input("enter any number : "))
+# sum=0
+# i=1
+# while(i<=n):
+#     sum+=i
+#     i=i+1
+# print("sum is : ",sum)
+
+
+
+#write a program to find factorial of first n numbers(using for)
+# n=int(input("enter any number : "))
+# fact=1
+# for i in range(1,n+1):
+#     fact=fact*i
+# print("factorial is : ",fact)
