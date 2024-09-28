@@ -265,3 +265,134 @@
 #     fact=fact*i
 # print("factorial is : ",fact)
 
+
+
+#function which calculates the average of three numbers
+# def average(num1,num2,num3):
+#     average=(num1+num2+num3)/3
+#     return average
+
+# print(average(20,20,20))
+
+
+#write a function to print the length of the list
+
+# new=[1,5,"sneha","devare"]
+# heroes=["ak","srk","sallu","anil","govinda"]
+    
+
+# def length(list):
+#     print(len(list))
+    
+
+# length(new)
+# length(heroes)
+
+
+#write the function to print the elements in the single line(list is a parameter)
+
+# family=["mammi","pappa","bhau","vahini","me"]
+
+# def single_line(list):
+#     print(family[0],end=" ")
+#     print(family[1],end=" ")
+#     print(family[2],end=" ")
+#     print(family[3],end=" ")
+#     print(family[4],end=" ")
+
+# single_line(family)
+
+
+#function for factorial of a number
+# def factorial(num):
+#     fact=1
+#     for i in range(1,num+1):
+#         fact=fact*i
+#     print(fact)
+        
+# factorial(5)
+
+
+#write a function to convert USD to INR
+#1$=83rs
+
+# def usd(dollar):
+#     dollar=dollar*83
+#     print(dollar,"rs")
+
+# usd(3)
+
+
+
+#write a function which input a number ...if the number is odd  it returns string odd.....otherwise even....if num is zero then return string zero
+# def odd_even():
+#     num=int(input("enter any number : "))
+#     if(num%2==0):
+#         print("even")
+#     else:
+#         print("odd")
+    
+# odd_even()
+
+#love function
+# import time
+# while True:
+#     print("I")
+#     time.sleep(2)
+#     print("Love💕💕")
+#     time.sleep(2)
+#     print("you")
+#     time.sleep(2)
+#     print("Alisha😘😘")
+#     time.sleep(2)
+
+
+#write a recursive function to calculate the sum of first n natural numbers
+# def sum(num):
+#     if(num==0):
+#         return 
+#     elif(num==1):
+#         return 1
+#     elif(num>1):
+#         return sum(num-1)+(num)
+    
+# print(sum(5))
+
+
+#create a new file "practice.txt" using python.add the following data in it:
+# Hi everyone
+# we are learning file IO
+# using python
+# i like programming in python
+
+
+# file=open("practice.txt","w")
+# file.write("Hi everyone\nwe are learning file io\nusing python\ni like programming in python")
+# file.read()  #it has created practice.txt which is in vs code folder
+
+
+#write a function to replace all occurences of "python" with "java" in above file
+# with open("practice.txt","r") as file:
+#     data=file.read()
+
+# new_data=data.replace("python","java")
+# print(new_data)
+
+# with open("practice.txt","w") as file:     #it overwrite the file data with new data
+#    file.write(new_data)
+
+
+#search if the word "learning" exists in the file or not
+# with open("practice.txt","r") as file:
+#     data=file.read()
+#     if(data.find("learning")):
+#         print("found")
+#     else:
+#         print("not found")
+
+
+
+#write a function to find in which line of the file does the word "learning" occur first and print -1 if word not found
+
+
+
